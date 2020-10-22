@@ -1,0 +1,65 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.tablero {
+	margin: 0 auto;
+	text-align: left;
+
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	width: auto;
+}
+
+.tablero td {
+	width: 20px;
+	height: 20px;
+}
+
+.paleta {
+	margin: 0 auto;
+	text-align: left;
+	border: medium solid #000;
+	background-color: #000;
+}
+
+.paleta td {
+	width: 150px;
+	height: 50px;
+}
+
+.seleccionado {
+	border: medium solid rgb(136, 0, 125);
+}
+
+.color1 {
+	background-color: #06C;
+}
+
+.color2 {
+	background-color: #0F0;
+}
+
+.color3 {
+	background-color: #FFF;
+}
+
+.color4 {
+	background-color: #F00;
+}
+
+.color5 {
+	background-color: #FF0;
+}
+
+.color6 {
+	background-color: #000;
+}
